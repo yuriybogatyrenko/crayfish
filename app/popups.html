@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Попапы</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	
+</head>
+<body>
+
+<div style="text-align:center;">
+	<a style="padding:5px;background:#8a7ee7;color:#fff;display:inline-block;border-radius:5px;margin:10px" href="#" data-call="feedback">Заказать звонок</a>
+	<a style="padding:5px;background:#8a7ee7;color:#fff;display:inline-block;border-radius:5px;margin:10px" href="#" data-call="added-product">Добавить в корзину</a>
+	<a style="padding:5px;background:#8a7ee7;color:#fff;display:inline-block;border-radius:5px;margin:10px" href="#" data-call="recipe1">Как варить</a>
+	<a style="padding:5px;background:#8a7ee7;color:#fff;display:inline-block;border-radius:5px;margin:10px" href="#" data-call="recipe2">сколько брать</a>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="b-popup" data-popup="recipe2">
+	<div class="overlay-popup"></div>
+	<div class="b-table">
+		<div class="b-td">
+			<div class="b-popup__content">
+				<i class="popup-close rt"></i>
+				<div class="b-frame-descr amount">
+					<p class="b-frame-descr__title-wrap fz26"><span class="b-frame-descr__title">Сколько брать раков? <br>Вот подсказка</span></p>
+					<div class="b-frame-descr__descr">
+						Все, конечно, зависит от ваших индивидуальных предпочтений. Если говорить о каких-то средних величинах, то:
+					</div>
+					<ul class="b-frame-descr__list">
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number man-icon"></span>
+							<div class="b-frame-descr__list__item__text"><span class="msc900">мужчине</span> обычно достаточно <span class="msc900">1,3 кг раков среднего размера.</span> Такое количество раков вы осилите где-то за 2 часа. Если вы настроены на более продолжительное  общение и больше количество пива, то берите 1,6-1,8 кг на человека.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number female-icon"></span>
+							<div class="b-frame-descr__list__item__text"><span class="msc900">дамам</span> рекомендуем заказывать <span class="msc900">не более 1 кг.</span></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="b-popup" data-popup="recipe1">
+	<div class="overlay-popup"></div>
+	<div class="b-table">
+		<div class="b-td">
+			<div class="b-popup__content cook">
+				<i class="popup-close rt"></i>
+				<div class="b-frame-descr">
+					<p class="b-frame-descr__title-wrap fz26"><span class="b-frame-descr__title">Забыли, как варить?<br>А вот классический рецепт</span></p>
+					<ul class="b-frame-descr__list">
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">1</span>
+							<div class="b-frame-descr__list__item__text">Набираем кастрюлю воды, доводим ее до кипения.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">2</span>
+							<div class="b-frame-descr__list__item__text">Помещаем раков в кипящую воду так, чтобы она полностью их покрывала.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">3</span>
+							<div class="b-frame-descr__list__item__text">Тщательно солим. Вода может быть даже пересоленной – ракам это пойдет только на пользу.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">4</span>
+							<div class="b-frame-descr__list__item__text">Добавляем укроп – семена или высушенный, черный перец горошком, несколько лавровых листов.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">5</span>
+							<div class="b-frame-descr__list__item__text">Ждем 25-30 минут.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<span class="b-frame-descr__list__item__number">6</span>
+							<div class="b-frame-descr__list__item__text">Даем ракам остыть и настояться в рассоле.</div>
+						</li>
+						<li class="b-frame-descr__list__item">
+							<div class="b-frame-descr__list__item__text">Приступаем к трапезе.</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="b-feedback-popup b-popup" data-popup="feedback">
+	<div class="overlay-popup"></div>
+	<div class="b-table">
+		<div class="b-td">
+			<div class="b-feedback-popup__content">
+				<i class="popup-close"></i>
+				<p class="b-feedback-popup__content__title">
+					Заказать звонок
+				</p>
+				<div class="b-checkout-form">
+					<div class="b-checkout-form__section">
+						<input class="b-checkout-form__input" placeholder="Ваше имя" type="text">
+					</div>
+					<div class="b-checkout-form__section">
+						<input class="b-checkout-form__input inputmask" placeholder="Контактный телефон" type="text">
+					</div>
+					<div class="b-checkout-form__section ">
+						<button class="b-checkout-form__button b-standard-btn green-btn">отправить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="b-added-popup b-popup" data-popup="added-product">
+	<div class="overlay-popup"></div>
+	<div class="b-table">
+		<div class="b-td">
+			<div class="b-added-popup__content">
+				<i class="popup-close"></i>
+				<p class="b-added-popup__content__title">Товар добавлен в корзину</p>
+				<p class="b-added-popup__content__descr">
+					Необходимое Вам кол-во раков (в кг) вы сможете выбрать в корзине
+				</p>
+				<div class="b-added-popup__content__btns-wrap">
+					<a class="b-standard-btn green-btn" href="#">перейти в корзину</a>
+					<a class="b-standard-btn orange-btn" href="#">продолжить покупки</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/input.mask.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/custom.js"></script>
+
+
+	<script>
+	    $(document).ready(function() {
+	    	if($('input[data-inputmask], .inputmask').length > 0) {
+		        $('input[data-inputmask], .inputmask').mask("+7 (999) 999-99-99");
+		    }
+
+			$(".b-main-slider").owlCarousel({
+				items: 1,
+			    loop: false,
+			    nav: false,
+			    dots: false,
+			    mouseDrag: false
+			});
+		});
+	</script>
+
+</body>
+</html>

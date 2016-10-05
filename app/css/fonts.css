@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "MuseoSansCyrl-300";
+    src: url("../fonts/MuseoSansCyrl-300.eot");
+    src: url("../fonts/MuseoSansCyrl-300.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl-300.woff2") format("woff"),
+    url("../fonts/MuseoSansCyrl-300.ttf") format("truetype"),
+    url("../fonts/MuseoSansCyrl-300.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MuseoSansCyrl-500";
+    src: url("../fonts/MuseoSansCyrl-500.eot");
+    src: url("../fonts/MuseoSansCyrl-500.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl-500.woff2") format("woff"),
+    url("../fonts/MuseoSansCyrl-500.ttf") format("truetype"),
+    url("../fonts/MuseoSansCyrl-500.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MuseoSansCyrl-700";
+    src: url("../fonts/MuseoSansCyrl-700.eot");
+    src: url("../fonts/MuseoSansCyrl-700.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl-700.woff2") format("woff"),
+    url("../fonts/MuseoSansCyrl-700.ttf") format("truetype"),
+    url("../fonts/MuseoSansCyrl-700.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MuseoSansCyrl-900";
+    src: url("../fonts/MuseoSansCyrl-900.eot");
+    src: url("../fonts/MuseoSansCyrl-900.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl-900.woff2") format("woff"),
+    url("../fonts/MuseoSansCyrl-900.ttf") format("truetype"),
+    url("../fonts/MuseoSansCyrl-900.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MuseoSansCyrl-300Italic";
+    src: url("../fonts/MuseoSansCyrl-300Italic.eot");
+    src: url("../fonts/MuseoSansCyrl-300Italic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl-300Italic.woff2") format("woff"),
+    url("../fonts/MuseoSansCyrl-300Italic.ttf") format("truetype"),
+    url("../fonts/MuseoSansCyrl-300Italic.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
